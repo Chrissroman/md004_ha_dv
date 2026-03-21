@@ -2,7 +2,7 @@
 
 ## 📚 Descripción
 
-Repositorio de la asignatura **MD004 - Herramientas Avanzadas de Visualización de Datos** del Máster Universitario en Data Science (MUDS). Este repositorio contiene notebooks de Jupyter con las resoluciones de tareas y entregables de la asignatura.
+Repositorio de la asignatura **MD004 - Herramientas Avanzadas de Visualización de Datos** del Máster Universitario en Data Science (MUDS) La Salle - URL. Este repositorio contiene notebooks de Jupyter con las resoluciones de tareas y entregables de la asignatura.
 
 ## 📋 Nomenclatura de Archivos
 
@@ -25,13 +25,28 @@ Los archivos en este repositorio siguen una nomenclatura específica:
 ```
 md004_ha_dv/
 │
-├── data/                           # Datasets utilizados
-│   ├── cancer_reg.csv             # Datos de registro de cáncer
-│   ├── 20221124_DataSalary.csv    # Datos de salarios
-│   └── Fichero Golf.csv           # Datos de pelotas de golf (Par Inc.)
+├── data/                                       # Datasets utilizados
+│   ├── 20221124_DataSalary.csv                # Datos de salarios
+│   ├── 20230119_DatosBoston.csv               # Datos de Boston
+│   ├── 20230119_SerieMacroeconomica_2010.csv  # Serie macroeconómica 2010
+│   ├── babies.csv                             # Datos de bebés
+│   ├── cancer_reg.csv                         # Datos de registro de cáncer
+│   ├── Fichero Golf.csv                       # Datos de pelotas de golf (Par Inc.)
+│   └── Poison_and_treat.txt                   # Datos de envenenamiento y tratamiento
 │
-├── S2T3_CancerReg_ChristianR_20260303.ipynb    # Sesión 2, Tarea 3
-├── test_hipotesis.ipynb                        # Test de hipótesis (Par Inc.)
+├── notebooks/                                  # Notebooks de trabajo y tareas
+│   ├── S2T3_CancerReg_ChristianR_20260303.ipynb
+│   ├── test_hipotesis.ipynb
+│   ├── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Babies.ipynb
+│   ├── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Poison.ipynb
+│   └── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Serie_Macroeconómica.ipynb
+│
+├── deliverables/                               # Entregables finales
+│   ├── MD004ChristianRomanMarinAC03.ipynb     # Actividad Continua 03
+│   └── MD004ChristianRomanMarinAC03.html      # Actividad Continua 03 (HTML)
+│
+├── submissions/                                # Archivos listos para enviar
+│
 ├── requirements.txt                            # Dependencias del proyecto
 └── README.md                                   # Este archivo
 
@@ -39,7 +54,9 @@ md004_ha_dv/
 
 ## 📓 Notebooks
 
-### 1. S2T3_CancerReg_ChristianR_20260303.ipynb
+### Tareas y Ejercicios
+
+#### 1. S2T3_CancerReg_ChristianR_20260303.ipynb
 **Sesión 2 - Tarea 3: Análisis de Registro de Cáncer**
 
 Análisis estadístico exhaustivo sobre tasas de mortalidad por cáncer en diferentes condados de Estados Unidos.
@@ -68,7 +85,7 @@ Análisis estadístico exhaustivo sobre tasas de mortalidad por cáncer en difer
 
 ---
 
-### 2. test_hipotesis.ipynb
+#### 2. test_hipotesis.ipynb
 **Test de Hipótesis: Caso Par Inc.**
 
 Estudio de caso sobre el fabricante de equipos de golf Par Inc., que busca introducir una pelota resistente a cortes manteniendo distancias de conducción comparables.
@@ -86,6 +103,62 @@ Comparar estadísticamente las distancias de conducción entre:
 - Estadística descriptiva por modelo
 
 **Dataset**: `Fichero Golf.csv`
+
+---
+
+### Análisis Multivariante
+
+#### 3. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Babies
+**Análisis multivariante de datos de bebés**
+
+Estudio de matriz de covarianza, análisis de varianza (ANOVA) y análisis factorial sobre datos relacionados con recién nacidos.
+
+**Técnicas aplicadas:**
+- Matriz de covarianza y correlación
+- ANOVA (Análisis de Varianza)
+- Análisis de Factores
+- Pruebas de significancia estadística
+
+**Dataset**: `babies.csv`
+
+---
+
+#### 4. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Poison
+**Análisis de tratamientos contra envenenamiento**
+
+Análisis estadístico multivariante sobre datos de envenenamiento y diferentes tratamientos aplicados.
+
+**Técnicas aplicadas:**
+- Matriz de covarianza
+- ANOVA multifactorial
+- Análisis de efectos principales e interacciones
+- Comparaciones post-hoc
+
+**Dataset**: `Poison_and_treat.txt`
+
+---
+
+#### 5. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Serie Macroeconómica
+**Análisis de series macroeconómicas**
+
+Estudio de variación y correlación en variables macroeconómicas a lo largo del tiempo.
+
+**Técnicas aplicadas:**
+- Matriz de covarianza temporal
+- ANOVA para series temporales
+- Análisis de componentes principales
+- Análisis factorial
+
+**Dataset**: `20230119_SerieMacroeconomica_2010.csv`
+
+---
+
+### Entregables
+
+#### MD004ChristianRomanMarinAC03
+**Actividad Continua 03**
+
+Entregable final de la actividad continua 03. Disponible en formato notebook (`.ipynb`) y HTML (`.html`) en la carpeta `deliverables/`.
 
 ---
 
@@ -119,6 +192,8 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+Los notebooks se encuentran en la carpeta `notebooks/` y los entregables finales en `deliverables/`.
+
 ## 📦 Dependencias Principales
 
 - **pandas** (3.0.1): Manipulación y análisis de datos
@@ -150,20 +225,59 @@ Datos de pruebas de distancia de pelotas de golf Par Inc.
 - Distancias de conducción del nuevo modelo (40 observaciones)
 - Mediciones realizadas con máquina mecánica
 
-### 3. 20221124_DataSalary.csv
-Dataset de salarios (a utilizar en futuras tareas).
+### 3. babies.csv
+Dataset de información sobre recién nacidos.
+
+**Uso:**
+- Análisis de matriz de covarianza
+- ANOVA y análisis de factores
+- Estudios de correlación entre variables perinatales
+
+### 4. Poison_and_treat.txt
+Datos de envenenamiento y tratamientos aplicados.
+
+**Contenido:**
+- Diferentes tipos de veneno
+- Tratamientos aplicados
+- Resultados y efectividad
+
+### 5. 20230119_SerieMacroeconomica_2010.csv
+Serie temporal de variables macroeconómicas desde 2010.
+
+**Uso:**
+- Análisis de series temporales
+- Matriz de covarianza temporal
+- Análisis factorial de variables económicas
+
+### 6. 20230119_DatosBoston.csv
+Dataset relacionado con datos de Boston (housing, crimen, etc.).
+
+**Uso:**
+- Análisis multivariante
+- Regresión y modelado predictivo
+
+### 7. 20221124_DataSalary.csv
+Dataset de salarios y compensaciones.
+
+**Uso:**
+- Análisis salarial
+- Estudios de disparidad y segmentación
 
 ## 👤 Autor
 
 **Christian R**
-- Estudiante del Master Universitario en Data Science (MUDS)
+- Estudiante del Master Universitario en Data Science (MUDS) La Salle - URL
 - Asignatura: MD004 - Herramientas Avanzadas de Visualización de Datos
 
 ## 📅 Historial de Actualizaciones
 
 - **03/03/2026**: S2T3 - Análisis de Cancer Registry completado
 - **03/03/2026**: Test de hipótesis Par Inc. implementado
-- **04/03/2026**: README.md creado
+- **04/03/2026**: README.md inicial creado
+- **21/03/2026**: Notebooks de matriz de covarianza, ANOVA y análisis de factores añadidos
+- **21/03/2026**: Reestructuración del repositorio - carpetas `notebooks/`, `deliverables/` y `submissions/` creadas
+- **21/03/2026**: Primer entregable AC03 y añadido a `deliverables/`
+- **21/03/2026**: README.md actualizado con nueva estructura y datasets adicionales
 
 ## 📝 Notas
 
@@ -171,6 +285,8 @@ Dataset de salarios (a utilizar en futuras tareas).
 - Se incluyen interpretaciones estadísticas y conclusiones
 - Los análisis siguen metodología académica rigurosa
 - Código reproducible y modular
+- **Estructura organizada**: notebooks en `/notebooks/`, datos en `/data/`, entregables en `/deliverables/`
+- La carpeta `submissions/` contiene archivos listos para envío a plataforma académica
 
 ---
 
