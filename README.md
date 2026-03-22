@@ -45,7 +45,8 @@ md004_ha_dv/
 │   ├── MD004ChristianRomanMarinAC03.ipynb     # Actividad Continua 03
 │   └── MD004ChristianRomanMarinAC03.html      # Actividad Continua 03 (HTML)
 │
-├── submissions/                                # Archivos listos para enviar
+├── submissions/                                # Archivos enviados a plataforma
+│   └── MD004ChristianRomanMarinAC03.pdf       # AC03 enviado (en evaluación)
 │
 ├── requirements.txt                            # Dependencias del proyecto
 └── README.md                                   # Este archivo
@@ -155,10 +156,26 @@ Estudio de variación y correlación en variables macroeconómicas a lo largo de
 
 ### Entregables
 
-#### MD004ChristianRomanMarinAC03
-**Actividad Continua 03**
+#### MD004ChristianRomanMarinAC03 ✅
+**Actividad Continua 03 - COMPLETADO Y ENVIADO**
 
-Entregable final de la actividad continua 03. Disponible en formato notebook (`.ipynb`) y HTML (`.html`) en la carpeta `deliverables/`.
+Primer entregable de la asignatura completado y enviado a plataforma académica.
+
+**Estado**: 📋 En evaluación
+
+**Contenido:**
+- Análisis estadístico multivariante
+- Matriz de covarianza y análisis ANOVA
+- Análisis de factores sobre múltiples datasets
+- Visualizaciones avanzadas con matplotlib/seaborn
+- Modelo de regresión lineal múltiple con interpretación de resultados
+
+**Formatos disponibles:**
+- 📓 Notebook Jupyter: `deliverables/MD004ChristianRomanMarinAC03.ipynb`
+- 🌐 HTML exportado: `deliverables/MD004ChristianRomanMarinAC03.html`
+- 📄 PDF enviado: `submissions/MD004ChristianRomanMarinAC03.pdf`
+
+**Fecha de envío**: 22 de marzo de 2026
 
 ---
 
@@ -269,6 +286,13 @@ Dataset de salarios y compensaciones.
 - Estudiante del Master Universitario en Data Science (MUDS) La Salle - URL
 - Asignatura: MD004 - Herramientas Avanzadas de Visualización de Datos
 
+## � Estado del Proyecto
+
+| Entregable | Estado | Fecha Envío | Evaluación |
+|------------|--------|-------------|------------|
+| AC03 - Actividad Continua 03 | ✅ Enviado | 22/03/2026 | ⏳ Pendiente |
+| Evaluación Final | 🔜 Próximo | - | - |
+
 ## 📅 Historial de Actualizaciones
 
 - **03/03/2026**: S2T3 - Análisis de Cancer Registry completado
@@ -276,8 +300,9 @@ Dataset de salarios y compensaciones.
 - **04/03/2026**: README.md inicial creado
 - **21/03/2026**: Notebooks de matriz de covarianza, ANOVA y análisis de factores añadidos
 - **21/03/2026**: Reestructuración del repositorio - carpetas `notebooks/`, `deliverables/` y `submissions/` creadas
-- **21/03/2026**: Primer entregable AC03 y añadido a `deliverables/`
+- **21/03/2026**: Primer entregable AC03 completado y añadido a `deliverables/`
 - **21/03/2026**: README.md actualizado con nueva estructura y datasets adicionales
+- **22/03/2026**: 🎯 AC03 exportado a PDF y enviado a plataforma académica - A la espera de evaluación
 
 ## 📝 Notas
 
@@ -286,7 +311,8 @@ Dataset de salarios y compensaciones.
 - Los análisis siguen metodología académica rigurosa
 - Código reproducible y modular
 - **Estructura organizada**: notebooks en `/notebooks/`, datos en `/data/`, entregables en `/deliverables/`
-- La carpeta `submissions/` contiene archivos listos para envío a plataforma académica
+- La carpeta `submissions/` contiene archivos enviados oficialmente a plataforma académica
+- ✅ Primer entregable (AC03) completado y enviado - en proceso de evaluación
 
 ---
 
