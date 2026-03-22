@@ -161,7 +161,7 @@ Estudio de variación y correlación en variables macroeconómicas a lo largo de
 
 Primer entregable de la asignatura completado y enviado a plataforma académica.
 
-**Estado**: 📋 En evaluación
+**Estado**: ✅ Calificación: **10/10**
 
 **Contenido:**
 - Análisis estadístico multivariante
@@ -290,7 +290,7 @@ Dataset de salarios y compensaciones.
 
 | Entregable | Estado | Fecha Envío | Evaluación |
 |------------|--------|-------------|------------|
-| AC03 - Actividad Continua 03 | ✅ Enviado | 22/03/2026 | ⏳ Pendiente |
+| AC03 - Actividad Continua 03 | ✅ Enviado | 22/03/2026 | ✅ 10/10 |
 | Evaluación Final | 🔜 Próximo | - | - |
 
 ## 📅 Historial de Actualizaciones
@@ -303,6 +303,7 @@ Dataset de salarios y compensaciones.
 - **21/03/2026**: Primer entregable AC03 completado y añadido a `deliverables/`
 - **21/03/2026**: README.md actualizado con nueva estructura y datasets adicionales
 - **22/03/2026**: 🎯 AC03 exportado a PDF y enviado a plataforma académica - A la espera de evaluación
+- **22/03/2026**: 🏆 AC03 calificado con **10/10**
 
 ## 📝 Notas
 
@@ -312,7 +313,7 @@ Dataset de salarios y compensaciones.
 - Código reproducible y modular
 - **Estructura organizada**: notebooks en `/notebooks/`, datos en `/data/`, entregables en `/deliverables/`
 - La carpeta `submissions/` contiene archivos enviados oficialmente a plataforma académica
-- ✅ Primer entregable (AC03) completado y enviado - en proceso de evaluación
+- ✅ Primer entregable (AC03) completado, enviado y calificado con **10/10**
 
 ---
 
