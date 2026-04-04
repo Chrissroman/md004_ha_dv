@@ -29,21 +29,30 @@ md004_ha_dv/
 │   ├── 20221124_DataSalary.csv                # Datos de salarios
 │   ├── 20230119_DatosBoston.csv               # Datos de Boston
 │   ├── 20230119_SerieMacroeconomica_2010.csv  # Serie macroeconómica 2010
+│   ├── 20230202 Subject Ecommerce.csv         # Datos de e-commerce (asignatura)
+│   ├── 20230202 Subject vs Spam.csv           # Datos de clasificación spam
 │   ├── babies.csv                             # Datos de bebés
 │   ├── cancer_reg.csv                         # Datos de registro de cáncer
 │   ├── Fichero Golf.csv                       # Datos de pelotas de golf (Par Inc.)
-│   └── Poison_and_treat.txt                   # Datos de envenenamiento y tratamiento
+│   ├── nba_logreg.csv                         # Datos de jugadores NBA (regresión logística)
+│   ├── Poison_and_treat.txt                   # Datos de envenenamiento y tratamiento
+│   └── sentiment_dataset.csv                  # Reviews de apps en App Store (polaridad)
 │
 ├── notebooks/                                  # Notebooks de trabajo y tareas
 │   ├── S2T3_CancerReg_ChristianR_20260303.ipynb
+│   ├── S4T3_SentimentAnalysis_ChristianR_20260404.ipynb
 │   ├── test_hipotesis.ipynb
 │   ├── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Babies.ipynb
 │   ├── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Poison.ipynb
-│   └── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Serie_Macroeconómica.ipynb
+│   ├── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Serie_Macroeconómica.ipynb
+│   ├── 4_Entropía_Bayes_y_sus_amigos__Ejemplo_NBA.ipynb
+│   └── 4_Entropía_Bayes_y_sus_amigos__Ejemplo_SPAM.ipynb
 │
 ├── deliverables/                               # Entregables finales
 │   ├── MD004ChristianRomanMarinAC03.ipynb     # Actividad Continua 03
 │   └── MD004ChristianRomanMarinAC03.html      # Actividad Continua 03 (HTML)
+│
+├── figures/                                    # Gráficos y visualizaciones generadas
 │
 ├── submissions/                                # Archivos enviados a plataforma
 │   └── MD004ChristianRomanMarinAC03.pdf       # AC03 enviado (en evaluación)
@@ -57,7 +66,33 @@ md004_ha_dv/
 
 ### Tareas y Ejercicios
 
-#### 1. S2T3_CancerReg_ChristianR_20260303.ipynb
+#### 1. S4T3_SentimentAnalysis_ChristianR_20260404.ipynb
+**Sesión 4 - Tarea 3: Análisis de Sentimientos - Reviews de App Store**
+
+Análisis de sentimientos sobre reviews de applicaciones en App Store utilizando Naive Bayes con CountVectorizer.
+
+**Preguntas de investigación:**
+1. ¿Tienen todas las apps la misma proporción de polaridad en sus reseñas?
+2. ¿Qué palabras parecen ser las que generan una mayor polaridad?
+3. ¿Cómo de bueno es el modelo generado con este conjunto de datos?
+4. ¿Podemos hacer uso de Laplace smoothing para mejorar los resultados?
+5. ¿Qué resultados obtenemos en el modelo?, ¿Predice correctamente en todas las apps?
+
+**Técnicas aplicadas:**
+- Análisis exploratorio de datos (EDA) por aplicación
+- Preprocesamiento de texto (normalización, eliminación de URLs, stopwords)
+- CountVectorizer para representación bag-of-words
+- Modelo Naive Bayes Multinomial (`MultinomialNB`)
+- Importancia de palabras mediante diferencia de log-probabilidades
+- Word Cloud de palabras más relevantes para la polaridad
+- Laplace Smoothing (`alpha` tuning) para comparación de modelos
+- Evaluación con accuracy, matriz de confusión y classification report
+
+**Dataset**: `sentiment_dataset.csv`
+
+---
+
+#### 2. S2T3_CancerReg_ChristianR_20260303.ipynb
 **Sesión 2 - Tarea 3: Análisis de Registro de Cáncer**
 
 Análisis estadístico exhaustivo sobre tasas de mortalidad por cáncer en diferentes condados de Estados Unidos.
@@ -151,6 +186,36 @@ Estudio de variación y correlación en variables macroeconómicas a lo largo de
 - Análisis factorial
 
 **Dataset**: `20230119_SerieMacroeconomica_2010.csv`
+
+---
+
+### Sesión 4 - Entropía, Bayes y sus amigos
+
+#### 6. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_NBA.ipynb
+**Análisis de jugadores NBA con regresión logística y Naive Bayes**
+
+Aplicación de modelos probabilísticos sobre datos de la NBA.
+
+**Técnicas aplicadas:**
+- Regresión logística
+- Naive Bayes
+- Análisis de entropía e información
+
+**Dataset**: `nba_logreg.csv`
+
+---
+
+#### 7. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_SPAM.ipynb
+**Clasificación de spam con Naive Bayes**
+
+Modelo de clasificación de correos spam vs ham usando Naive Bayes.
+
+**Técnicas aplicadas:**
+- Naive Bayes para clasificación de texto
+- Análisis de entropía e información
+- Evaluación de clasificadores
+
+**Dataset**: `20230202 Subject vs Spam.csv`
 
 ---
 
@@ -280,6 +345,39 @@ Dataset de salarios y compensaciones.
 - Análisis salarial
 - Estudios de disparidad y segmentación
 
+### 8. sentiment_dataset.csv
+Reviews de aplicaciones de la App Store con su polaridad de sentimiento.
+
+**Variables:**
+- `package_name`: Identificador de la aplicación
+- `review`: Texto de la reseña del usuario
+- `polarity`: Sentimiento (`1` = muy positivo/negativo, `0` = neutro)
+
+**Uso:**
+- Análisis de sentimientos (S4T3)
+- Clasificación de texto con Naive Bayes
+
+### 9. nba_logreg.csv
+Datos estadísticos de jugadores de la NBA.
+
+**Uso:**
+- Regresión logística
+- Clasificación con Naive Bayes
+
+### 10. 20230202 Subject vs Spam.csv
+Dataset de clasificación de correos electrónicos spam/ham.
+
+**Uso:**
+- Clasificación de texto con Naive Bayes
+- Análisis de entropía
+
+### 11. 20230202 Subject Ecommerce.csv
+Datos de e-commerce de la asignatura.
+
+**Uso:**
+- Análisis multivariante
+- Ejercicios de la asignatura
+
 ## 👤 Autor
 
 **Christian R**
@@ -304,6 +402,9 @@ Dataset de salarios y compensaciones.
 - **21/03/2026**: README.md actualizado con nueva estructura y datasets adicionales
 - **22/03/2026**: 🎯 AC03 exportado a PDF y enviado a plataforma académica - A la espera de evaluación
 - **22/03/2026**: 🏆 AC03 calificado con **10/10**
+- **04/04/2026**: S4T3 - Análisis de Sentimientos (App Store reviews) completado con Naive Bayes y Laplace Smoothing
+- **04/04/2026**: Dataset `sentiment_dataset.csv` añadido a `/data/`
+- **05/04/2026**: Carpeta `figures/` creada para almacenar gráficos y visualizaciones generadas
 
 ## 📝 Notas
 
@@ -311,7 +412,7 @@ Dataset de salarios y compensaciones.
 - Se incluyen interpretaciones estadísticas y conclusiones
 - Los análisis siguen metodología académica rigurosa
 - Código reproducible y modular
-- **Estructura organizada**: notebooks en `/notebooks/`, datos en `/data/`, entregables en `/deliverables/`
+- **Estructura organizada**: notebooks en `/notebooks/`, datos en `/data/`, entregables en `/deliverables/`, figuras en `/figures/`
 - La carpeta `submissions/` contiene archivos enviados oficialmente a plataforma académica
 - ✅ Primer entregable (AC03) completado, enviado y calificado con **10/10**
 
