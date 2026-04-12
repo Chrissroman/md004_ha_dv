@@ -430,18 +430,15 @@ Datos de e-commerce de la asignatura.
 - **03/03/2026**: S2T3 - Análisis de Cancer Registry completado
 - **03/03/2026**: Test de hipótesis Par Inc. implementado
 - **04/03/2026**: README.md inicial creado
+- **21/03/2026**: Primer entregable AC03 completado y añadido a `deliverables/`
 - **21/03/2026**: Notebooks de matriz de covarianza, ANOVA y análisis de factores añadidos
 - **21/03/2026**: Reestructuración del repositorio - carpetas `notebooks/`, `deliverables/` y `submissions/` creadas
-- **04/04/2026**: S4T3 - Análisis de Sentimientos (Sentiment Analysis) completado
-- **11/04/2026**: S5T3 - Análisis de Churn con Kaplan-Meier y Cohort Analysis completado
-- **13/04/2026**: README.md actualizado con S5T3 y nuevas técnicas de análisis de cohort
-- **21/03/2026**: Primer entregable AC03 completado y añadido a `deliverables/`
 - **21/03/2026**: README.md actualizado con nueva estructura y datasets adicionales
-- **22/03/2026**: 🎯 AC03 exportado a PDF y enviado a plataforma académica - A la espera de evaluación
+- **22/03/2026**: 🎯 AC03 exportado a PDF y enviado a plataforma académica
 - **22/03/2026**: 🏆 AC03 calificado con **10/10**
 - **04/04/2026**: S4T3 - Análisis de Sentimientos (App Store reviews) completado con Naive Bayes y Laplace Smoothing
 - **04/04/2026**: Dataset `sentiment_dataset.csv` añadido a `/data/`
-- **05/04/2026**: Carpeta `figures/` creada para almacenar gráficos y visualizaciones generadas
+- **12/04/2026**: S5T3 - Análisis de Churn con Kaplan-Meier y Cohort Analysis completado
 
 ## 📝 Notas
 
