@@ -66,7 +66,41 @@ md004_ha_dv/
 
 ### Tareas y Ejercicios
 
-#### 1. S4T3_SentimentAnalysis_ChristianR_20260404.ipynb
+#### 1. S5T3_ChurnAnalysis_ChristianR_20260411.ipynb
+**Sesión 5 - Tarea 3: Análisis de Churn y Cohort Analysis**
+
+Análisis exhaustivo sobre el comportamiento de clientes y su abandono (churn) mediante análisis de cohortes y análisis de supervivencia (Kaplan-Meier).
+
+**Preguntas de investigación:**
+1. ¿Cómo varían las tasas de retención de clientes según el canal de adquisición?
+2. ¿Existen diferencias significativas en el comportamiento de cohort de clientes en diferentes períodos?
+3. ¿Cuál es la curva de supervivencia de los clientes por línea de productos?
+4. ¿Cómo se distribuyen los clientes por canal y línea de productos?
+5. ¿Existen patrones en la primera compra de clientes y su posterior retención?
+
+**Técnicas aplicadas:**
+- Análisis exploratorio de datos (EDA) de comportamiento clientela
+- Análisis de Cohortes: tabla pivot de cohortes por período de primera compra
+- Curvas ROT (Repeat Order Time) y análisis de patrones temporales
+- Análisis de Supervivencia (Kaplan-Meier Fitter)
+- Segmentación por canal de adquisición y línea de productos
+- Pruebas estadísticas log-rank para comparación de curvas de supervivencia
+- Visualización de curvas de supervivencia Kaplan-Meier
+- Análisis de cohort retention rates y customer lifetime patterns
+- Identificación de primeras compras por cliente y seguimiento posterior
+
+**Métricas clave:**
+- Retention rates por cohorte temporal
+- Churn rate por canal de adquisición
+- Survival curves por product line
+- Repeat purchase behavior
+- Customer acquisition patterns
+
+**Dataset**: Datos de transacciones de e-commerce con información de clientes, productos y canales
+
+---
+
+#### 2. S4T3_SentimentAnalysis_ChristianR_20260404.ipynb
 **Sesión 4 - Tarea 3: Análisis de Sentimientos - Reviews de App Store**
 
 Análisis de sentimientos sobre reviews de applicaciones en App Store utilizando Naive Bayes con CountVectorizer.
@@ -92,7 +126,7 @@ Análisis de sentimientos sobre reviews de applicaciones en App Store utilizando
 
 ---
 
-#### 2. S2T3_CancerReg_ChristianR_20260303.ipynb
+#### 3. S2T3_CancerReg_ChristianR_20260303.ipynb
 **Sesión 2 - Tarea 3: Análisis de Registro de Cáncer**
 
 Análisis estadístico exhaustivo sobre tasas de mortalidad por cáncer en diferentes condados de Estados Unidos.
@@ -121,7 +155,7 @@ Análisis estadístico exhaustivo sobre tasas de mortalidad por cáncer en difer
 
 ---
 
-#### 2. test_hipotesis.ipynb
+#### 4. test_hipotesis.ipynb
 **Test de Hipótesis: Caso Par Inc.**
 
 Estudio de caso sobre el fabricante de equipos de golf Par Inc., que busca introducir una pelota resistente a cortes manteniendo distancias de conducción comparables.
@@ -144,7 +178,7 @@ Comparar estadísticamente las distancias de conducción entre:
 
 ### Análisis Multivariante
 
-#### 3. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Babies
+#### 5. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Babies
 **Análisis multivariante de datos de bebés**
 
 Estudio de matriz de covarianza, análisis de varianza (ANOVA) y análisis factorial sobre datos relacionados con recién nacidos.
@@ -159,7 +193,7 @@ Estudio de matriz de covarianza, análisis de varianza (ANOVA) y análisis facto
 
 ---
 
-#### 4. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Poison
+#### 6. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Poison
 **Análisis de tratamientos contra envenenamiento**
 
 Análisis estadístico multivariante sobre datos de envenenamiento y diferentes tratamientos aplicados.
@@ -174,7 +208,7 @@ Análisis estadístico multivariante sobre datos de envenenamiento y diferentes 
 
 ---
 
-#### 5. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Serie Macroeconómica
+#### 7. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Serie Macroeconómica
 **Análisis de series macroeconómicas**
 
 Estudio de variación y correlación en variables macroeconómicas a lo largo del tiempo.
@@ -191,7 +225,7 @@ Estudio de variación y correlación en variables macroeconómicas a lo largo de
 
 ### Sesión 4 - Entropía, Bayes y sus amigos
 
-#### 6. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_NBA.ipynb
+#### 8. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_NBA.ipynb
 **Análisis de jugadores NBA con regresión logística y Naive Bayes**
 
 Aplicación de modelos probabilísticos sobre datos de la NBA.
@@ -205,7 +239,7 @@ Aplicación de modelos probabilísticos sobre datos de la NBA.
 
 ---
 
-#### 7. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_SPAM.ipynb
+#### 9. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_SPAM.ipynb
 **Clasificación de spam con Naive Bayes**
 
 Modelo de clasificación de correos spam vs ham usando Naive Bayes.
@@ -398,6 +432,9 @@ Datos de e-commerce de la asignatura.
 - **04/03/2026**: README.md inicial creado
 - **21/03/2026**: Notebooks de matriz de covarianza, ANOVA y análisis de factores añadidos
 - **21/03/2026**: Reestructuración del repositorio - carpetas `notebooks/`, `deliverables/` y `submissions/` creadas
+- **04/04/2026**: S4T3 - Análisis de Sentimientos (Sentiment Analysis) completado
+- **11/04/2026**: S5T3 - Análisis de Churn con Kaplan-Meier y Cohort Analysis completado
+- **13/04/2026**: README.md actualizado con S5T3 y nuevas técnicas de análisis de cohort
 - **21/03/2026**: Primer entregable AC03 completado y añadido a `deliverables/`
 - **21/03/2026**: README.md actualizado con nueva estructura y datasets adicionales
 - **22/03/2026**: 🎯 AC03 exportado a PDF y enviado a plataforma académica - A la espera de evaluación
