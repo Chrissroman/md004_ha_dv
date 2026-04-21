@@ -1,226 +1,815 @@
 city,category
-Ahmedabad,Large City
-Surat,Large City
-Mumbai,Large City
-Pune,Large City
-Hyderabad,Large City
-Bangalore,Large City
-NCR,Large City
-Chennai,Large City
-Kolkata,Large City
-Jaipur,Large City
-Lucknow,Large City
-Kanpur,Large City
-Nagpur,Large City
-Visakhapatnam,Large City
-Indore,Large City
-Thiruvananthapuram,Large City
-Bhopal,Large City
-Patna,Large City
-Ludhiana,Large City
-Agra,Large City
-Nashik,Large City
-Vadodara,Large City
-Coimbatore,Large City
-Kochi,Large City
-Varanasi,Large City
-Madurai,Large City
-Meerut,Large City
-Prayagraj,Large City
-Amritsar,Large City
-Srinagar,Large City
-Jodhpur,Large City
-Chandigarh,Large City
-Gwalior,Large City
-Vijayawada,Large City
-Guwahati,Large City
-Hubli,Large City
-Mysore,Large City
-Tiruchirappalli,Large City
-Bareilly,Large City
-Aligarh,Large City
-Gurgaon,Large City
-Bhubaneshwar,Large City
-Kullu,Small City/Town
-Warangal,Small City/Town
-Kanchipuram,Small City/Town
-Jalandhar,Small City/Town
-Berhampur,Small City/Town
-Kharagpur,Small City/Town
-Tiruvarur,Small City/Town
-Bageshwar,Small City/Town
-Sirsa,Small City/Town
-Churu,Small City/Town
-Hanumangarh,Small City/Town
-Kurnool,Small City/Town
-Jamshedpur,Small City/Town
-Nizamabad,Small City/Town
-Ambala,Small City/Town
-Nanded,Small City/Town
-Banswara,Small City/Town
-Amravati,Small City/Town
-Sonipat,Small City/Town
-Rourkela,Small City/Town
-Kolar,Small City/Town
-Junagadh,Small City/Town
-Dehradun,Small City/Town
-Rajkot,Small City/Town
-Sangli,Small City/Town
-Bharuch,Small City/Town
-Kankroli,Small City/Town
-Haridwar,Small City/Town
-Beawar City,Small City/Town
-Bhagalpur,Small City/Town
-Kishanganj,Small City/Town
-Anantapur,Small City/Town
-Rewa,Small City/Town
-Ajmer,Small City/Town
-Bhuj,Small City/Town
-Secunderabad,Small City/Town
-Rupnagar,Small City/Town
-Muktsar,Small City/Town
-Pratapgarh,Small City/Town
-Renebennur,Small City/Town
-Gaya,Small City/Town
-Chattarpur,Small City/Town
-Thrissur,Small City/Town
-Vellore,Small City/Town
-Hisar,Small City/Town
-Saharanpur,Small City/Town
-Mahesana,Small City/Town
-Yamunanagar,Small City/Town
-Nalgonda,Small City/Town
-Singrauli,Small City/Town
-Jammu,Small City/Town
-Hailakandi,Small City/Town
+24 Paraganas North,Small City/Town
+AP,State/Region
 Adilabad,Small City/Town
-Krishnagiri,Small City/Town
-Medininagar,Small City/Town
-Tiruvallur,Small City/Town
-Pithampur,Small City/Town
-Gangtok,Small City/Town
-Muzaffarnagar,Small City/Town
-Pathankot,Small City/Town
-Rameshwaram,Small City/Town
-Jajpur,Small City/Town
-Dharmapuri,Small City/Town
-Udaipur,Small City/Town
-Wayanad,Small City/Town
-Mandya,Small City/Town
-Nagapattinam,Small City/Town
-Bilaspur,Small City/Town
-Murshidabad,Small City/Town
-Patiala,Small City/Town
-Ongole,Small City/Town
-Mandsaur,Small City/Town
-Kottayam,Small City/Town
-Shimoga,Small City/Town
-Mahbubnagar,Small City/Town
-Mirzapur,Small City/Town
-Bagalkot,Small City/Town
-Darbhanga,Small City/Town
-Mandi,Small City/Town
-Bijnor,Small City/Town
-Morena,Small City/Town
-Jabalpur,Small City/Town
-Balaghat,Small City/Town
-Belgaum,Small City/Town
-Raipur,Small City/Town
-Gorakhpur,Small City/Town
-Gandhinagar,Small City/Town
-Vizianagaram,Small City/Town
-Tiruppur,Small City/Town
-Mangalore,Small City/Town
-Rohtak,Small City/Town
-Chhindwara,Small City/Town
-Chandrapur,Small City/Town
-Davangere,Small City/Town
-Cuddalore,Small City/Town
-Purnia,Small City/Town
-Raichur,Small City/Town
-Rampur,Small City/Town
-Bhilwara,Small City/Town
-Puducherry,Small City/Town
-Bikaner,Small City/Town
-Rajgarh,Small City/Town
-Panipat,Small City/Town
-Sri Ganganagar,Small City/Town
-Katni,Small City/Town
-Kota,Small City/Town
-Dahod,Small City/Town
-Surendranagar,Small City/Town
-Karnal,Small City/Town
-Solan,Small City/Town
-Kanayakumari,Small City/Town
-Ranchi,Small City/Town
-Kadi,Small City/Town
+Administrative,Foreign/International
+Agartala,Small City/Town
+Agra,Large City
+Agstipura,State/Region
+Ahmadnagar,Small City/Town
+Ahmedabad,Large City
+Aizawl,Small City/Town
+Ajmer,Small City/Town
+Akbarpur,Small City/Town
+Akbarpur UP,Small City/Town
+Akola,Small City/Town
+Alappuzha,Small City/Town
+Alavalapadu,Small City/Town
+Aligarh,Large City
+Allahabad,Large City
+Alluri,Small City/Town
+Almora,Small City/Town
+Alur/Karnataka,State/Region
 Alwar,Small City/Town
-Chittoor,Small City/Town
-Daman,Small City/Town
-Tohana,Small City/Town
-Ferozepur,Small City/Town
-Jind,Small City/Town
-Salem,Small City/Town
-Bellary,Small City/Town
-Satara,Small City/Town
-Bhadrak,Small City/Town
-Fatehabad,Small City/Town
-Nellore,Small City/Town
-Kashipur,Small City/Town
-Thoothukudi,Small City/Town
-Thanjavur,Small City/Town
-Kurukshetra,Small City/Town
-Bhilai,Small City/Town
-Kadapa,Small City/Town
-Porbandar,Small City/Town
-Proddatur,Small City/Town
-Haldwani,Small City/Town
-Palanpur,Small City/Town
-Faizabad,Small City/Town
-Udupi,Small City/Town
-Ranipet,Small City/Town
-Beed,Small City/Town
-Jamnagar,Small City/Town
-Darjeeling,Small City/Town
-Muzaffarpur,Small City/Town
-Bidar,Small City/Town
-Gulbarga,Small City/Town
-Latur,Small City/Town
-Ratnagiri,Small City/Town
-Kozhikode,Small City/Town
-Villupuram,Small City/Town
-Malda,Small City/Town
-Madanapalle,Small City/Town
-Samastipur,Small City/Town
-Rajahmundry,Small City/Town
-Saharsa,Small City/Town
-Gadag,Small City/Town
-Durgapur,Small City/Town
-Bardhaman,Small City/Town
-Azamgarh,Small City/Town
-Karauli,Small City/Town
-Dibrugarh,Small City/Town
-Panji,Small City/Town
-Hoshiarpur,Small City/Town
-Palakkad,Small City/Town
-Balasore,Small City/Town
-Himatnagar,Small City/Town
-Roorkee,Small City/Town
-Barmer,Small City/Town
-Kolhapur,Small City/Town
-Cuttack,Small City/Town
-Tiruvannamalai,Small City/Town
-Namakkal,Small City/Town
-Bulandshahr,Small City/Town
+Amalapuram,Small City/Town
+Amanagara,Small City/Town
+Ambala,Small City/Town
+Ambala Cantt/Secunderabad,Small City/Town
+Ambavaram,Small City/Town
+Ambavaram AP,Small City/Town
+Ambedkar Nagar,Small City/Town
+Ambedkar Nagar/UP,Small City/Town
+Ambedkar nagar,Small City/Town
+Ambikapur,Small City/Town
+Among 38 s of Bihar,Foreign/International
+Amravati,Small City/Town
+Amreli,Small City/Town
+Amritsar,Large City
+Amroha,Small City/Town
+Amsterdam,Foreign/International
+Amsterdam netherlands,Foreign/International
+Anand,Small City/Town
+Anantapur,Small City/Town
+Anantpur,Small City/Town
+Andheri,Small City/Town
+Andhra Pradesh,State/Region
+Angul,Small City/Town
+Anjgir-Champa,Small City/Town
+Annavaram,Small City/Town
 Ariyalur,Small City/Town
-Kannur,Small City/Town
-Puri,Small City/Town
-Shahjahanpur,Small City/Town
-Rajnandgaon,Small City/Town
-Chittorgarh,Small City/Town
-Sirohi,Small City/Town
-Gudivada,Small City/Town
+Arrah,Small City/Town
+Asansol,Small City/Town
+Ashok Nagar,Small City/Town
+Ashok nagar,Small City/Town
+Ashoknagar,Small City/Town
+Ashoknagar/MP,Small City/Town
+Asoknagar,Small City/Town
+Assam,State/Region
+Aurangabad,Small City/Town
+Austin,Foreign/International
+Azamgarh,Small City/Town
+Badaun,Small City/Town
+Baga beaches,Foreign/International
+Bagalkot,Small City/Town
+Bageshwar,Small City/Town
+Bageshwar ,Small City/Town
+Baghpat,Small City/Town
+Bahraich,Small City/Town
+Balaghat,Small City/Town
+Balangir,Small City/Town
+Balasore,Small City/Town
+Balurghat,Small City/Town
+Banaskantha,Small City/Town
+Banda,Small City/Town
+Bangalore,Large City
+Bangkok,Foreign/International
+Banka,Small City/Town
+Banki,Small City/Town
+Banswara,Small City/Town
+Baran,Small City/Town
+Baranagar,Small City/Town
+Barauda,Small City/Town
+Bardhaman,Small City/Town
+Bareilly,Large City
+Bargarh,Small City/Town
+Bari Sadri,Small City/Town
+Bari sadri,Small City/Town
+Barmer,Small City/Town
+Barnala,Small City/Town
+Barrackpore,Small City/Town
+Barrackpore WB,Small City/Town
+Bastar,Small City/Town
+Basti,Small City/Town
+Basti/UP,Small City/Town
+Bathinda,Small City/Town
+Bawana,Small City/Town
+Beawar City,Small City/Town
+Beed,Small City/Town
+Begusarai,Small City/Town
+Belgaum,Small City/Town
+Bellary,Small City/Town
+Bengal,State/Region
+Berhampur,Small City/Town
+Bettiah,Small City/Town
+Bhadohi,Small City/Town
+Bhadrak,Small City/Town
+Bhagalpur,Small City/Town
+Bhagwati,Small City/Town
+Bharat Nagar,Small City/Town
+Bharuch,Small City/Town
+Bhavnagar,Small City/Town
+Bhawanipatna,Small City/Town
+Bhilai,Small City/Town
+Bhilwara,Small City/Town
+Bhilwara/ Ajmer,Small City/Town
+Bhimavaram,Small City/Town
+Bhimavram,Small City/Town
+Bhiwadi,Small City/Town
+Bhopal,Large City
+Bhubaneshwar,Large City
+Bhubaneswar,Large City
+Bhuj,Small City/Town
+Bidar,Small City/Town
+Bihar,State/Region
+Bijnor,Small City/Town
+Bikaner,Small City/Town
+Bilaspur,Small City/Town
+Birbhum,Small City/Town
+Bischpur,Small City/Town
+Bishnupur,Small City/Town
+Bishnupur manipur,Small City/Town
+Bokaro Steel City,Small City/Town
+Bongaigaon,Small City/Town
+Brahmapur,Small City/Town
+Bulandshahr,Small City/Town
+Buldana,Small City/Town
+Bundelkhand,Small City/Town
+Bundi,Small City/Town
+Burdwan,Small City/Town
+Burhanpur,Small City/Town
+Burhanpur ,Small City/Town
+Buxar,Small City/Town
+CHHATTISGARH,State/Region
+CHITTORGARH,Small City/Town
+Cachar,Small City/Town
+Calcatta,Large City
+California,Foreign/International
+Cambodia,Foreign/International
+Canada,Foreign/International
+Champawat,Small City/Town
+Chandigarh,Large City
+Chandipur,Small City/Town
+Chandrapur,Small City/Town
+Chatra,Small City/Town
+Chattarpur,Small City/Town
+Chennai,Large City
+Chhattisgarh,State/Region
+Chhindwara,Small City/Town
+Chicago,Foreign/International
+Chikkaballapur,Small City/Town
 Chikmagalur,Small City/Town
-Pilani,Small City/Town
+Chintamani,Small City/Town
 Chitradurga,Small City/Town
-Vals
+Chittoor,Small City/Town
+Chittoor karnataka,Small City/Town
+Chittorgarh,Small City/Town
+Churu,Small City/Town
+Coimbatore,Large City
+Coimbatore ,Large City
+Cooch Behar,Small City/Town
+Cooch Behar WB,Small City/Town
+Cuddalore,Small City/Town
+Cuttack,Small City/Town
+Dahod,Small City/Town
+Daman,Small City/Town
+Dandeli,Small City/Town
+Darbhanga,Small City/Town
+Darjeeling,Small City/Town
+Daskroi,Small City/Town
+Daskroi Taluka in Ahmedabad,Small City/Town
+Dausa,Small City/Town
+Davangere,Small City/Town
+Dehli,Large City
+Dehradun,Small City/Town
+Delhi,Large City
+Delhi,Small City/Town
+Deoghar,Small City/Town
+Deoghar Tehsil,Small City/Town
+Deoria,Small City/Town
+Deoria/UP,Small City/Town
+Derabassi,Small City/Town
+Dhaka,Foreign/International
+Dhanaura,Small City/Town
+Dhanaura Tehsil,Small City/Town
+Dhanbad,Small City/Town
+Dharamshala,Small City/Town
+Dharmapuri,Small City/Town
+Dholpur,Small City/Town
+Dhubri/Assam,State/Region
+Dhule,Small City/Town
+Dhupguri,Small City/Town
+Dibrugarh,Small City/Town
+Digha,Small City/Town
+Dindigul,Small City/Town
+Dispur,Small City/Town
+Dispur/Guwahati,Small City/Town
+Diu,Small City/Town
+Dubai,Foreign/International
+Dublin,Foreign/International
+Dumdum,Small City/Town
+Dungarpur,Small City/Town
+Durg,Small City/Town
+Durgapur,Small City/Town
+East Champaran,Small City/Town
+East Godavar,Small City/Town
+East Godavari,Small City/Town
+East Godavri,Small City/Town
+Egra,Large City
+Eluru,Small City/Town
+Eluru/Andhra Pradesh,Small City/Town
+Erode,Small City/Town
+Etawah,Small City/Town
+Fairfield County,Foreign/International
+Faizabad,Small City/Town
+Farrukhabad,Small City/Town
+Fatehabad,Small City/Town
+Fatehpur,Small City/Town
+Ferozepur,Small City/Town
+Firozabad,Small City/Town
+Frankfurt,Foreign/International
+Gachibowli,Small City/Town
+Gadag,Small City/Town
+Gajapati,Small City/Town
+GandhiDham,Small City/Town
+Gandhinagar,Small City/Town
+Ganganagar,Small City/Town
+Gangtok,Small City/Town
+Ganjam,Small City/Town
+Garhwa,Small City/Town
+Garhwal,Small City/Town
+Gaya,Small City/Town
+Ghatal,Small City/Town
+Gilan,Foreign/International
+Giridih,Small City/Town
+Goa,State/Region
+Godavari,Small City/Town
+Godavari AP,Small City/Town
+Godaveri,Small City/Town
+Godda,State/Region
+Golaghat,Small City/Town
+Gondia,Small City/Town
+Gopalganj,Small City/Town
+Gopalwadi,Small City/Town
+Gorakhpur,Small City/Town
+Gudivada,Small City/Town
+Gujarat,State/Region
+Gulbarga,Small City/Town
+Guntur,Small City/Town
+Gurgaon,Large City
+Guwahati,Large City
+Gwalior,Large City
+Hailakandi,Small City/Town
+Haldwani,Small City/Town
+Halethota,Foreign/International
+Hamirpur,Small City/Town
+Hanumangarh,Small City/Town
+Hardoi,Small City/Town
+Haridwar,Small City/Town
+Haryana,State/Region
+Hassan,Small City/Town
+Hata,Small City/Town
+Hata Tehsil,Small City/Town
+Hathras,Small City/Town
+Haveri,Small City/Town
+Hazaribagh,Small City/Town
+Himachal Pradesh,State/Region
+Himatnagar,Small City/Town
+Hingoli,Small City/Town
+Hisar,Small City/Town
+Hong Kong,Foreign/International
+Hooghly,Small City/Town
+Hoshiarpur,Small City/Town
+Howrah,Small City/Town
+Hubli,Large City
+Hunphun ,Small City/Town
+Hyderabad,Large City
+Idukki,Small City/Town
+Ilhas,Foreign/International
+Imphal,Small City/Town
+Indore,Large City
+Itanagar,Small City/Town
+Jabalpur,Small City/Town
+Jagadhri,Small City/Town
+Jaipur,Large City
+Jaisalmer,Small City/Town
+Jajpur,Small City/Town
+Jalandhar,Small City/Town
+Jalaun,Small City/Town
+Jalaun UP,Small City/Town
+Jalgaon,Small City/Town
+Jalgaon/ Aurangabad,Small City/Town
+Jalore,Small City/Town
+Jalpaiguri,Small City/Town
+Jammu,Small City/Town
+Jammu and Kashmir,State/Region
+Jamnagar,Small City/Town
+Jamshedpur,Small City/Town
+Janjgir-Champa,Small City/Town
+Jawhar,Small City/Town
+Jawhar ,Small City/Town
+Jhajjar,Small City/Town
+Jhansi,Small City/Town
+Jharkhand,State/Region
+Jhunjhunu,Small City/Town
+Jind,Small City/Town
+Jodhpur,Large City
+Jorhat,Small City/Town
+Junagadh,Small City/Town
+Kabirdham,Small City/Town
+"Kachachh,Gujrat",State/Region
+Kachchh,Small City/Town
+Kadapa,Small City/Town
+Kadi,Small City/Town
+Kaimganj,Small City/Town
+Kaira,Small City/Town
+Kaithal/Kurukshetra,Small City/Town
+Kakinada,Small City/Town
+Kakinada/Andhra Pradesh,State/Region
+Kalyan,Small City/Town
+Kalyan ,Small City/Town
+Kamarhati,Small City/Town
+Kamrup,Small City/Town
+Kamrup (Rural),Small City/Town
+Kamrup Assam,Small City/Town
+Kamrup rural,Small City/Town
+Kanakapura,Large City
+Kanayakumari,Small City/Town
+Kanchipuram,Small City/Town
+Kandhamal,Small City/Town
+Kankroli,Small City/Town
+Kannauj,Small City/Town
+Kanniyakumari,Small City/Town
+Kannur,Small City/Town
+Kanpur,Large City
+Kanyakumari,Small City/Town
+Karaikal,Small City/Town
+Karaikudi,Small City/Town
+Karauli,Small City/Town
+Karbi Anglong,Small City/Town
+Karimganj,Small City/Town
+Karimnagar,Small City/Town
+Karnal,Small City/Town
+Karnataka,State/Region
+Karwar,Small City/Town
+Karwar karnataka,Small City/Town
+Kasaragod,Small City/Town
+Kasganj,Small City/Town
+Kashipur,Small City/Town
+Katihar,Small City/Town
+Katni,Small City/Town
+Kendujhar,Small City/Town
+Kendujhar Tehsil in Kendujhar,Small City/Town
+Kerala,State/Region
+Khambhat,Small City/Town
+Khambhat Taluka,Small City/Town
+Khammam,Small City/Town
+Khammam/ Vijayawada,Small City/Town
+Khandwa,Small City/Town
+Kharagpur,Small City/Town
+Kharaswan,Small City/Town
+Kharaswan jharkhand,Small City/Town
+Kiev,Foreign/International
+"Kinnaur,HP",Small City/Town
+Kishanganj,Small City/Town
+Kishanganj/West bengal,Small City/Town
+Kochi,Large City
+Kodagu,Small City/Town
+Kodagu karnataka,Small City/Town
+Koderama,Small City/Town
+Koderma,Small City/Town
+Kodoli,Small City/Town
+Kolar,Small City/Town
+Kolhapur,Small City/Town
+Kolkata,Large City
+Kollam,Small City/Town
+Konkan,Small City/Town
+Koraput,Small City/Town
+Korba,Small City/Town
+Korea,Foreign/International
+Kota,Small City/Town
+Kotdwara,Small City/Town
+Kothapeta,Small City/Town
+Kottayam,Small City/Town
+Kozhikode,Small City/Town
+Krishna,Small City/Town
+Krishnagiri,Small City/Town
+Krishnanagar,Small City/Town
+Krishnanagar WB,Small City/Town
+Kullu,Small City/Town
+Kumar,Foreign/International
+Kuppam,Small City/Town
+Kurali,Small City/Town
+Kurnool,Small City/Town
+Kurukshetra,Small City/Town
+Kushinagar,Large City
+Kusi,Foreign/International
+Kutch,Small City/Town
+Ladakh,State/Region
+Lakhisarai,Small City/Town
+Lakhisarai Bihar,Small City/Town
+Las Vegas,Foreign/International
+Latur,Small City/Town
+Lebanon,Foreign/International
+Leh,Small City/Town
+Loiusville,Foreign/International
+Lonavala,Small City/Town
+London,Foreign/International
+Lucknow,Large City
+Ludhiana,Large City
+MP,State/Region
+Madanapalle,Small City/Town
+Madanpur,Small City/Town
+Madhubani,Large City
+Madhya Pradesh,State/Region
+Madikeri,Small City/Town
+Madikeri Taluk in Kodagu,Small City/Town
+Madurai,Large City
+Mahabalipuram,Small City/Town
+Mahabalipuram Town,Small City/Town
+Maharashtra,State/Region
+Mahasamund,Small City/Town
+Mahaveer Nagar,Small City/Town
+Mahbubnagar,Small City/Town
+Mahesana,Small City/Town
+Malappuram,Small City/Town
+Malda,Small City/Town
+Malegaon,Small City/Town
+Malwa,Small City/Town
+Manali,Small City/Town
+Manchal Mandal in Rangareddi,Foreign/International
+Mandal in Krishna,Foreign/International
+Mandi,Small City/Town
+Mandla,Small City/Town
+Mandsaur,Small City/Town
+Mandya,Small City/Town
+Mangaldai,Small City/Town
+Mangalore,Small City/Town
+Maraimalai Nagar,Small City/Town
+Maraimalai nagar,Small City/Town
+Margao,Small City/Town
+Margao/Goa,Small City/Town
+Mathura,Small City/Town
+Mawana,Small City/Town
+Mayurakshi River,Foreign/International
+Mayurbhanj,Small City/Town
+Mayurbhanj/Orissa,Small City/Town
+Medininagar,Small City/Town
+Meerut,Large City
+Mehsana,Small City/Town
+Melbourne,Foreign/International
+Melbourne/USA,Foreign/International
+Milan,Foreign/International
+Milwaukee,Foreign/International
+Miryalaguda,Small City/Town
+Mirzapur,Small City/Town
+Moga/Ludhiana,Large City
+Mohali,Small City/Town
+Mompati Municipality,Foreign/International
+Monroe,Foreign/International
+Moradabad,Small City/Town
+"Morbi,Gujrat",State/Region
+Morena,Small City/Town
+Mormugao,Small City/Town
+Mormugão,Small City/Town
+Motihari,Small City/Town
+Muktsar,Small City/Town
+Mumbai,Large City
+Mundgod,Small City/Town
+Mundgod Tehsil,Small City/Town
+Murshidabad,Small City/Town
+Muzaffarnagar,Small City/Town
+Muzaffarpur,Small City/Town
+Mysore,Large City
+Mysuru,Large City
+Mysuru/Orissa,Large City
+NCR,Large City
+Nadia,Small City/Town
+Nadiad,Small City/Town
+Nagaland,State/Region
+Nagaon,Small City/Town
+Nagaon/Assam,State/Region
+Nagapattinam,Small City/Town
+Nagar parishad,Foreign/International
+Nagaur/ Bikaner,Large City
+Nagpur,Large City
+Naihati,Small City/Town
+Nainital,Small City/Town
+Nalgonda,Small City/Town
+Nalhati,Small City/Town
+Namakkal,Small City/Town
+Nanded,Small City/Town
+Nandurbar,Small City/Town
+Nandyala,Small City/Town
+Narasapuram,Small City/Town
+Narasaraopet,Small City/Town
+Narnaul,Small City/Town
+Narsinghpur,Small City/Town
+Narwana,Small City/Town
+Nashik,Large City
+Nasik,Large City
+Nawada,Small City/Town
+Nawanshahr,Small City/Town
+Nayagarh,Small City/Town
+Nedumkandam,Small City/Town
+Nellore,Small City/Town
+New Jersey,Foreign/International
+New South Wales,Foreign/International
+New York,Foreign/International
+Newcastle,Foreign/International
+Nilgiris,Small City/Town
+Nilgiris tamilnadu,Small City/Town
+Nizamabad,Small City/Town
+North 24 Paraganas,Small City/Town
+North Carolina,Foreign/International
+North Dumdum,Small City/Town
+North Goa,Small City/Town
+Norway,Foreign/International
+Nuzvid,Small City/Town
+Odisha,State/Region
+Ongole,Small City/Town
+Ooty,Small City/Town
+Osmanabad,Small City/Town
+PONDICHERRY ,Small City/Town
+Palakkad,Small City/Town
+Palampur,Small City/Town
+Palanpur,Small City/Town
+Palanpur/Ahmedabad,Small City/Town
+Palghar,Small City/Town
+Palwal,Small City/Town
+Panaji,Small City/Town
+Panch Mahals,Small City/Town
+Panch mahals,Small City/Town
+Panchkula,Small City/Town
+Panchkula ,Small City/Town
+Panipat,Small City/Town
+Panji,Small City/Town
+Panjim,Small City/Town
+Panna,Large City
+Paraganas,Small City/Town
+Parbhani,Small City/Town
+Paschim Bardhaman,Small City/Town
+Paschim Champaran,Small City/Town
+Paschim Medinipur,Small City/Town
+Pathankot,Small City/Town
+Patiala,Small City/Town
+Patna,Large City
+Pauri,Small City/Town
+Phoenix,Foreign/International
+Phoenix/USA,Foreign/International
+Pilani,Small City/Town
+Pimpri-Chinchwad,Large City
+Pinjor,Small City/Town
+Pithampur,Small City/Town
+Pithampuram,Small City/Town
+Pondicherry,Small City/Town
+Pondicherry ,Small City/Town
+Porbandar,Small City/Town
+Praddatur,Small City/Town
+Prakasam,Small City/Town
+Prakasam and Padaaraveedu Mandall,Foreign/International
+Pratapgarh,Small City/Town
+Prayagraj,Large City
+Proddatur,Small City/Town
+Puducherry,Small City/Town
+Pune,Large City
+Punjab,State/Region
+Purbi Champaran,Small City/Town
+Purbi Singhbhum,Small City/Town
+Puri,Small City/Town
+Purnea,Small City/Town
+Purnia,Small City/Town
+Purnia/Bihar,Small City/Town
+RAIPUR,Small City/Town
+Raebareli,Small City/Town
+Raebarely,Small City/Town
+Raichur,Small City/Town
+Raigad,Small City/Town
+Raiganj,Small City/Town
+Raigarh,Large City
+Railly,Large City
+Raipur,Small City/Town
+Raipur ,Small City/Town
+Rajahmundry,Small City/Town
+Rajahmundry town,Small City/Town
+Rajampet,Small City/Town
+Rajasthan,State/Region
+Rajgarh,Small City/Town
+Rajkot,Small City/Town
+Rajnandgaon,Small City/Town
+Rajpur,Small City/Town
+Rameshwaram,Small City/Town
+Rampur,Small City/Town
+Rampurhat,Small City/Town
+Ramsinghpura,Small City/Town
+Ranchi,Small City/Town
+Ranga Reddy,Small City/Town
+Ranipet,Small City/Town
+Raraiyah,Small City/Town
+Rasayani,Small City/Town
+Rasipuram,Small City/Town
+Ratlam,Small City/Town
+Ratnagiri,Small City/Town
+Rawaldhi,Small City/Town
+Rayagada,Small City/Town
+Renebennur,Small City/Town
+Rewa,Small City/Town
+Rohtak,Small City/Town
+Rohtak in Rohtak,Small City/Town
+Roorkee,Small City/Town
+Rourkela,Small City/Town
+Rudrapur,Small City/Town
+Rupnagar,Small City/Town
+Sabar Kantha,Small City/Town
+Sabarkantha,Small City/Town
+Sagar,Large City
+Sagar City,Small City/Town
+Saha,Small City/Town
+Saharanpur,Small City/Town
+Saharsa,Small City/Town
+Salcete,Small City/Town
+Salem,Small City/Town
+Samana,Small City/Town
+Samastipur,Small City/Town
+Sambalpur,Small City/Town
+San Francisco,Foreign/International
+San Jose,Foreign/International
+San Jose/USA,Foreign/International
+San Mateo,Foreign/International
+Sangli,Small City/Town
+Sangrur,Small City/Town
+Santa Clara,Foreign/International
+Santa Clara County,Foreign/International
+Santa Cruz,Foreign/International
+Saran,Small City/Town
+Satara,Small City/Town
+Sawai Madhopur,Small City/Town
+Second largest of Uttarakhand,Foreign/International
+Secunderabad,Small City/Town
+Sehore,Small City/Town
+Shahdara,Small City/Town
+Shahdol,Small City/Town
+Shahjahanpur,Small City/Town
+Shamli,Small City/Town
+Sheopur,Small City/Town
+Sheopur ,Small City/Town
+Shillong,Small City/Town
+Shimla,Small City/Town
+Shimoga,Small City/Town
+Shirdi,Small City/Town
+Shivpuri,Small City/Town
+Siddharth Nagar,Small City/Town
+Siddharthnagar,Small City/Town
+Siliguri,Small City/Town
+Simdega,Small City/Town
+Sindhudurg,Small City/Town
+Sindhudurg/Maharashtra,State/Region
+Singapore,Foreign/International
+Singrauli,Small City/Town
+Sirohi,Small City/Town
+Sirsa,Small City/Town
+Sirsi,Small City/Town
+Sirsi Taluk,Small City/Town
+Sitamarhi,Small City/Town
+Sitapur,Small City/Town
+Sivaganga,Small City/Town
+Sivasagar,Small City/Town
+Sneh Nagar,Small City/Town
+Solan,Small City/Town
+Solan HP,Small City/Town
+Solapur,Small City/Town
+Sonapur,Large City
+Sonbhadra,Small City/Town
+Sonipat,Small City/Town
+South 24 Paraganas,Small City/Town
+South Goa,Small City/Town
+South London,Foreign/International
+South Sikkim,Small City/Town
+Sri Ganganagar,Small City/Town
+Srinagar,Large City
+Sundargarh/ rourkela,Small City/Town
+Supaul,Small City/Town
+Surat,Large City
+Suratgarh,Small City/Town
+Surendranagar,Small City/Town
+Suri,Small City/Town
+Surjapur,Small City/Town
+Suryapet,Large City
+TRIPURA,State/Region
+Taluka in Uttara Kannada,Foreign/International
+Tamil Nadu,State/Region
+Tamilnadu,State/Region
+Tapan,Small City/Town
+Tapi,Small City/Town
+Tarabganj,Small City/Town
+Telangana,State/Region
+Tenkasi,Small City/Town
+Thanjavur,Small City/Town
+Third-largest in the Indian state,Foreign/International
+Thiruvalla,Small City/Town
+Thiruvananthapuram,Large City
+Thoothukudi,Small City/Town
+Thrissur,Small City/Town
+Tikamgarh,Small City/Town
+Tiruchirapalli,Large City
+Tiruchirappalli,Large City
+Tirupati,Small City/Town
+Tirupattur,Small City/Town
+Tiruppur,Small City/Town
+Tiruvallur,Small City/Town
+Tiruvannamalai,Small City/Town
+Tiruvarur,Small City/Town
+Tohana,Small City/Town
+Tripura,State/Region
+Tumakuru,Small City/Town
+Tumakuru karnataka,Small City/Town
+Tumkur,Small City/Town
+UP,State/Region
+Udaipur,Small City/Town
+Udham Singh Nagar,Small City/Town
+Udupi,Small City/Town
+Una,Small City/Town
+Una/Himachal Pradesh,State/Region
+Union territory of Daman and Diu,Foreign/International
+Uttar Pradesh,State/Region
+Uttara Kannada,State/Region
+Uttara Kannada/Karnataka,State/Region
+Uttarakhand,State/Region
+Uttrakhand,State/Region
+Vadgaon,Small City/Town
+Vadodara,Large City
+Vadodara ,Large City
+Vaishali,Small City/Town
+Valsad,Small City/Town
+Vapi,Small City/Town
+Varanasi,Large City
+Vasco Da Gama,Small City/Town
+Vasco De Gama,Small City/Town
+Vasco da Gama,Small City/Town
+Vellore,Small City/Town
+Vidisha/Bhopal,State/Region
+Vijayanagar,Large City
+Vijayapura,Small City/Town
+Vijayawada,Large City
+Villupuram,Small City/Town
+Visakhapatnam,Large City
+Vishakapatnam,Large City
+Vizianagaram,Small City/Town
+Vrindavan,Small City/Town
+Wankaner,Small City/Town
+Warangal,Small City/Town
+Wardha,Small City/Town
+Washim,Small City/Town
+Washington,Foreign/International
+Wayanad,Small City/Town
+West Bengal,State/Region
+West Champaran,Small City/Town
+West Godavar,Small City/Town
+West Godavari,Small City/Town
+West Godavri,Small City/Town
+West Jaintia Hills,Small City/Town
+West Kameng,Small City/Town
+West Tripura,State/Region
+West champaran,Small City/Town
+Worcestershire,Foreign/International
+Yamunanagar,Small City/Town
+Yavatmal,Small City/Town
+agra ,Large City
+ahmedabad,Large City
+ambikapur,Small City/Town
+anand gujrat,Small City/Town
+assam,State/Region
+azamgarh,Small City/Town
+bhopal,Large City
+bilaspur,Small City/Town
+california,Foreign/International
+cambodia,Foreign/International
+coast of North Goa,Foreign/International
+dholpur,Small City/Town
+goa,State/Region
+godavari,Small City/Town
+godaveri,Small City/Town
+gorakhpur,Small City/Town
+indore,Large City
+jammu and Kashmir,State/Region
+kabirdham,Small City/Town
+kamatchi nagar,Small City/Town
+kanpur,Large City
+kerala,State/Region
+latur,Small City/Town
+ludhiana,Large City
+malda,Small City/Town
+nagaland,State/Region
+nnur Taluk of Coimbatore,Foreign/International
+north carolina,Foreign/International
+odisha,State/Region
+ooty,Small City/Town
+pilani,Small City/Town
+pinjor,Small City/Town
+raigarh,Large City
+shahdol,Small City/Town
+srinagar,Large City
+tamilnadu,State/Region
+vadodara,Large City
+vapi,Small City/Town
+vijaywada AP,Large City
+west tirpura,State/Region
