@@ -25,40 +25,52 @@ Los archivos en este repositorio siguen una nomenclatura específica:
 ```
 md004_ha_dv/
 │
-├── data/                                       # Datasets utilizados
-│   ├── 20221124_DataSalary.csv                # Datos de salarios
-│   ├── 20230119_DatosBoston.csv               # Datos de Boston
-│   ├── 20230119_SerieMacroeconomica_2010.csv  # Serie macroeconómica 2010
-│   ├── 20230202 Subject Ecommerce.csv         # Datos de e-commerce (asignatura)
-│   ├── 20230202 Subject vs Spam.csv           # Datos de clasificación spam
-│   ├── babies.csv                             # Datos de bebés
-│   ├── cancer_reg.csv                         # Datos de registro de cáncer
-│   ├── Fichero Golf.csv                       # Datos de pelotas de golf (Par Inc.)
-│   ├── nba_logreg.csv                         # Datos de jugadores NBA (regresión logística)
-│   ├── Poison_and_treat.txt                   # Datos de envenenamiento y tratamiento
-│   └── sentiment_dataset.csv                  # Reviews de apps en App Store (polaridad)
+├── data/                                           # Datasets utilizados
+│   ├── 20221124_DataSalary.csv                    # Datos de salarios
+│   ├── 20230119_DatosBoston.csv                   # Datos de Boston
+│   ├── 20230119_SerieMacroeconomica_2010.csv      # Serie macroeconómica 2010
+│   ├── 20230202 Subject Ecommerce.csv             # Datos de e-commerce (asignatura)
+│   ├── 20230202 Subject vs Spam.csv               # Datos de clasificación spam
+│   ├── accomodation_nights_booked.csv             # Noches reservadas en alojamientos
+│   ├── audio_book_data.csv                        # Datos de audiolibros
+│   ├── babies.csv                                 # Datos de bebés
+│   ├── cancer_reg.csv                             # Datos de registro de cáncer
+│   ├── customer_churn_data.csv                    # Datos de churn telecom india
+│   ├── Fichero Golf.csv                           # Datos de pelotas de golf (Par Inc.)
+│   ├── indian_city_tiers.csv                      # Clasificación de ciudades indias
+│   ├── nba_logreg.csv                             # Datos de jugadores NBA
+│   ├── Poison_and_treat.txt                       # Datos de envenenamiento y tratamiento
+│   ├── sentiment_dataset.csv                      # Reviews de apps en App Store (polaridad)
+│   └── TratamientoDatos_SerieTitanic.csv          # Dataset Titanic (preprocesado)
 │
-├── notebooks/                                  # Notebooks de trabajo y tareas
+├── notebooks/                                      # Notebooks de trabajo y tareas
 │   ├── S2T3_CancerReg_ChristianR_20260303.ipynb
 │   ├── S4T3_SentimentAnalysis_ChristianR_20260404.ipynb
+│   ├── S5T3_ChurnAnalysis_ChristianR_20260411.ipynb
+│   ├── S6T2_AudioBook_ChristianR_20260416.ipynb
+│   ├── S6T3_AccomodationNights_ChristianR_20260427.ipynb
+│   ├── AnalisisChurnCompras_5_3.ipynb
 │   ├── test_hipotesis.ipynb
 │   ├── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Babies.ipynb
 │   ├── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Poison.ipynb
 │   ├── 3_Matrix_de_Covarianza,_ANOVA_y_Análisis_de_Factores_Ejemplo_Serie_Macroeconómica.ipynb
 │   ├── 4_Entropía_Bayes_y_sus_amigos__Ejemplo_NBA.ipynb
-│   └── 4_Entropía_Bayes_y_sus_amigos__Ejemplo_SPAM.ipynb
+│   ├── 4_Entropía_Bayes_y_sus_amigos__Ejemplo_SPAM.ipynb
+│   └── 6_Preparación_de_Datos_Ejemplo_Titanic.ipynb
 │
-├── deliverables/                               # Entregables finales
-│   ├── MD004ChristianRomanMarinAC03.ipynb     # Actividad Continua 03
-│   └── MD004ChristianRomanMarinAC03.html      # Actividad Continua 03 (HTML)
+├── deliverables/                                   # Entregables finales
+│   ├── MD004ChristianRomanMarinAC03.ipynb         # Actividad Continua 03
+│   ├── MD004ChristianRomanMarinAC03.html          # Actividad Continua 03 (HTML)
+│   ├── MD004ChristianRomanMarinAC06.ipynb         # Actividad Continua 06
+│   └── MD004ChristianRomanMarinAC06.html          # Actividad Continua 06 (HTML)
 │
-├── figures/                                    # Gráficos y visualizaciones generadas
+├── figures/                                        # Gráficos y visualizaciones generadas
 │
-├── submissions/                                # Archivos enviados a plataforma
-│   └── MD004ChristianRomanMarinAC03.pdf       # AC03 enviado (en evaluación)
+├── submissions/                                    # Archivos enviados a plataforma
+│   └── MD004ChristianRomanMarinAC03.pdf           # AC03 enviado
 │
-├── requirements.txt                            # Dependencias del proyecto
-└── README.md                                   # Este archivo
+├── requirements.txt                                # Dependencias del proyecto
+└── README.md                                       # Este archivo
 
 ```
 
@@ -66,7 +78,38 @@ md004_ha_dv/
 
 ### Tareas y Ejercicios
 
-#### 1. S5T3_ChurnAnalysis_ChristianR_20260411.ipynb
+#### 1. S6T3_AccomodationNights_ChristianR_20260427.ipynb
+**Sesión 6 - Tarea 3: Análisis de Noches de Alojamiento**
+
+Notebook en desarrollo. Análisis sobre el dataset de noches reservadas en alojamientos.
+
+**Dataset**: `accomodation_nights_booked.csv`
+
+---
+
+#### 2. S6T2_AudioBook_ChristianR_20260416.ipynb
+**Sesión 6 - Tarea 2: Data Wrangling sobre Datos de Audiolibros**
+
+Ejercicio de limpieza y transformación de datos sobre un dataset de audiolibros. Exploración de técnicas de preprocesamiento y extracción de información desde campos de texto no estructurado.
+
+**Preguntas de investigación:**
+1. ¿Cuál es la duración mediana de los audiolibros en minutos?
+2. ¿Cuántas valoraciones tiene el audiolibro con más reseñas?
+3. ¿Qué autor tiene más audiolibros publicados?
+4. ¿Cuál es el narrador más popular?
+
+**Técnicas aplicadas:**
+- Parsing y transformación de strings de duración (horas/minutos a minutos)
+- Extracción de conteo de valoraciones desde campos de texto
+- Normalización de nombres de autores y narradores
+- Estadísticas descriptivas post-limpieza
+- Visualizaciones con matplotlib y seaborn
+
+**Dataset**: `audio_book_data.csv`
+
+---
+
+#### 3. S5T3_ChurnAnalysis_ChristianR_20260411.ipynb
 **Sesión 5 - Tarea 3: Análisis de Churn y Cohort Analysis**
 
 Análisis exhaustivo sobre el comportamiento de clientes y su abandono (churn) mediante análisis de cohortes y análisis de supervivencia (Kaplan-Meier).
@@ -100,7 +143,7 @@ Análisis exhaustivo sobre el comportamiento de clientes y su abandono (churn) m
 
 ---
 
-#### 2. S4T3_SentimentAnalysis_ChristianR_20260404.ipynb
+#### 4. S4T3_SentimentAnalysis_ChristianR_20260404.ipynb
 **Sesión 4 - Tarea 3: Análisis de Sentimientos - Reviews de App Store**
 
 Análisis de sentimientos sobre reviews de applicaciones en App Store utilizando Naive Bayes con CountVectorizer.
@@ -126,7 +169,7 @@ Análisis de sentimientos sobre reviews de applicaciones en App Store utilizando
 
 ---
 
-#### 3. S2T3_CancerReg_ChristianR_20260303.ipynb
+#### 5. S2T3_CancerReg_ChristianR_20260303.ipynb
 **Sesión 2 - Tarea 3: Análisis de Registro de Cáncer**
 
 Análisis estadístico exhaustivo sobre tasas de mortalidad por cáncer en diferentes condados de Estados Unidos.
@@ -155,7 +198,7 @@ Análisis estadístico exhaustivo sobre tasas de mortalidad por cáncer en difer
 
 ---
 
-#### 4. test_hipotesis.ipynb
+#### 6. test_hipotesis.ipynb
 **Test de Hipótesis: Caso Par Inc.**
 
 Estudio de caso sobre el fabricante de equipos de golf Par Inc., que busca introducir una pelota resistente a cortes manteniendo distancias de conducción comparables.
@@ -176,9 +219,45 @@ Comparar estadísticamente las distancias de conducción entre:
 
 ---
 
-### Análisis Multivariante
+### Análisis Multivariante y Preparación de Datos
 
-#### 5. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Babies
+#### 7. 6_Preparación_de_Datos_Ejemplo_Titanic.ipynb
+**Sesión 6 - Preparación de Datos: Titanic**
+
+Notebook de referencia (en R) sobre las etapas del pipeline de preparación de datos, usando el dataset del Titanic como caso práctico.
+
+**Técnicas aplicadas:**
+- Exploración y resumen de datos
+- Creación de nuevas variables (feature engineering)
+- Transformación de tipos de datos
+- Filtrado de outliers
+- Tratamiento de valores missing
+- Normalización y estandarización
+- Discretización y agrupación de variables
+
+**Dataset**: `TratamientoDatos_SerieTitanic.csv`
+**Lenguaje**: R (tidyverse, dplyr, ggplot2)
+
+---
+
+#### 8. AnalisisChurnCompras_5_3.ipynb
+**Sesión 5 - Referencia: Análisis de Cohortes y Supervivencia (R)**
+
+Notebook de referencia (en R) sobre análisis de cohortes y análisis de supervivencia para retención de usuarios en aplicaciones móviles.
+
+**Técnicas aplicadas:**
+- Construcción de tablas de cohortes diarias y mensuales
+- Análisis de tasas de retención por cohorte
+- Curvas de retención y transformación shift-left
+- Análisis de supervivencia (survival analysis)
+- Visualización de cohortes con heatmaps
+
+**Dataset**: `gamelaunch` (paquete survminer de R)
+**Lenguaje**: R (tidyverse, cohorts, survival, survminer)
+
+---
+
+#### 9. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Babies
 **Análisis multivariante de datos de bebés**
 
 Estudio de matriz de covarianza, análisis de varianza (ANOVA) y análisis factorial sobre datos relacionados con recién nacidos.
@@ -193,7 +272,7 @@ Estudio de matriz de covarianza, análisis de varianza (ANOVA) y análisis facto
 
 ---
 
-#### 6. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Poison
+#### 10. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Poison
 **Análisis de tratamientos contra envenenamiento**
 
 Análisis estadístico multivariante sobre datos de envenenamiento y diferentes tratamientos aplicados.
@@ -208,7 +287,7 @@ Análisis estadístico multivariante sobre datos de envenenamiento y diferentes 
 
 ---
 
-#### 7. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Serie Macroeconómica
+#### 11. Matrix de Covarianza, ANOVA y Análisis de Factores - Ejemplo Serie Macroeconómica
 **Análisis de series macroeconómicas**
 
 Estudio de variación y correlación en variables macroeconómicas a lo largo del tiempo.
@@ -225,7 +304,7 @@ Estudio de variación y correlación en variables macroeconómicas a lo largo de
 
 ### Sesión 4 - Entropía, Bayes y sus amigos
 
-#### 8. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_NBA.ipynb
+#### 12. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_NBA.ipynb
 **Análisis de jugadores NBA con regresión logística y Naive Bayes**
 
 Aplicación de modelos probabilísticos sobre datos de la NBA.
@@ -239,7 +318,7 @@ Aplicación de modelos probabilísticos sobre datos de la NBA.
 
 ---
 
-#### 9. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_SPAM.ipynb
+#### 13. 4_Entropía_Bayes_y_sus_amigos__Ejemplo_SPAM.ipynb
 **Clasificación de spam con Naive Bayes**
 
 Modelo de clasificación de correos spam vs ham usando Naive Bayes.
@@ -254,6 +333,38 @@ Modelo de clasificación de correos spam vs ham usando Naive Bayes.
 ---
 
 ### Entregables
+
+#### MD004ChristianRomanMarinAC06 🕐
+**Actividad Continua 06 - ENVIADO · EN EVALUACIÓN**
+
+Segundo entregable de la asignatura enviado el 27 de abril de 2026. Análisis completo del ciclo de vida del cliente y predicción de churn en el sector de telecomunicaciones (India).
+
+**Estado**: 🕐 Enviado — pendiente de evaluación
+
+**Contenido:**
+- Análisis exploratorio exhaustivo (EDA) sobre dataset de telecom con 104.142 clientes
+- Análisis de calidad de datos: missing values, distribuciones, outliers
+- Visualización de variables numéricas y categóricas
+- Análisis de percentiles y asimetría de distribuciones
+- Identificación de patrones en métricas de los primeros 7 días post-registro
+- Análisis de la variable objetivo `is_churned` y sus relaciones con el resto de features
+
+**Variables clave:**
+- `is_churned`: variable objetivo (churn binario)
+- `device_brand`, `city`, `age`: perfil demográfico
+- `payment_initiated`, `payment_failed`, `payment_completed`: historial de pagos
+- `visits_feature_1/2`, `permissions_count`, `referral`: engagement y permisos
+- `reward_purchase_count_first_7days`: actividad inicial del cliente
+
+**Dataset**: `customer_churn_data.csv` (104.142 filas × 18 columnas)
+
+**Formatos disponibles:**
+- 📓 Notebook Jupyter: `deliverables/MD004ChristianRomanMarinAC06.ipynb`
+- 🌐 HTML exportado: `deliverables/MD004ChristianRomanMarinAC06.html`
+
+**Fecha de envío**: 27 de abril de 2026
+
+---
 
 #### MD004ChristianRomanMarinAC03 ✅
 **Actividad Continua 03 - COMPLETADO Y ENVIADO**
@@ -412,17 +523,62 @@ Datos de e-commerce de la asignatura.
 - Análisis multivariante
 - Ejercicios de la asignatura
 
+### 12. customer_churn_data.csv
+Datos de clientes de una empresa de telecomunicaciones india.
+
+**Variables principales:**
+- `is_churned`: variable objetivo (abandono del cliente)
+- `device_brand`, `city`, `age`: perfil demográfico del cliente
+- `payment_initiated`, `payment_failed`, `payment_completed`: métricas de pagos
+- `visits_feature_1/2`: uso de funcionalidades de la plataforma
+- `permissions_count`, `referral`: comportamiento y captación
+- `reward_purchase_count_first_7days`: actividad primeros 7 días
+
+**Uso:**
+- Análisis de churn y predicción (AC06)
+- EDA y análisis de calidad de datos
+
+### 13. audio_book_data.csv
+Datos de audiolibros con información de duración, autores, narradores y valoraciones.
+
+**Uso:**
+- Ejercicio de data wrangling (S6T2)
+- Parsing y transformación de campos de texto
+
+### 14. accomodation_nights_booked.csv
+Datos de reservas de noches en alojamientos.
+
+**Uso:**
+- Análisis de noches de alojamiento (S6T3)
+
+### 15. TratamientoDatos_SerieTitanic.csv
+Dataset del Titanic con información de pasajeros para preprocesamiento de datos.
+
+**Variables principales:**
+- `PassengerId`, `Survived` (target), `Pclass`, `Name`, `Age`
+- `SibSp`, `Parch`, `Ticket`, `Fare`, `Cabin`, `Embarked`
+
+**Uso:**
+- Notebook de referencia de preparación de datos (Sesión 6)
+
+### 16. indian_city_tiers.csv
+Clasificación de ciudades indias por nivel/tier.
+
+**Uso:**
+- Dato de apoyo para análisis geográfico en contexto indio
+
 ## 👤 Autor
 
 **Christian R**
 - Estudiante del Master Universitario en Data Science (MUDS) La Salle - URL
 - Asignatura: MD004 - Herramientas Avanzadas de Visualización de Datos
 
-## � Estado del Proyecto
+## 🚦 Estado del Proyecto
 
 | Entregable | Estado | Fecha Envío | Evaluación |
 |------------|--------|-------------|------------|
 | AC03 - Actividad Continua 03 | ✅ Enviado | 22/03/2026 | ✅ 10/10 |
+| AC06 - Actividad Continua 06 | 🕐 Enviado | 27/04/2026 | ⏳ Pendiente |
 | Evaluación Final | 🔜 Próximo | - | - |
 
 ## 📅 Historial de Actualizaciones
@@ -439,6 +595,12 @@ Datos de e-commerce de la asignatura.
 - **04/04/2026**: S4T3 - Análisis de Sentimientos (App Store reviews) completado con Naive Bayes y Laplace Smoothing
 - **04/04/2026**: Dataset `sentiment_dataset.csv` añadido a `/data/`
 - **12/04/2026**: S5T3 - Análisis de Churn con Kaplan-Meier y Cohort Analysis completado
+- **16/04/2026**: S6T2 - Data Wrangling sobre datos de audiolibros completado
+- **16/04/2026**: Dataset `audio_book_data.csv` añadido a `/data/`
+- **27/04/2026**: 🎯 AC06 - Entregable de Churn Telecom completado y enviado a plataforma académica
+- **27/04/2026**: Dataset `customer_churn_data.csv` y archivos de soporte añadidos a `/data/`
+- **27/04/2026**: S6T3 - Notebook de noches de alojamiento creado (en desarrollo)
+- **27/04/2026**: README.md actualizado con AC06, nuevos notebooks y datasets
 
 ## 📝 Notas
 
@@ -448,7 +610,8 @@ Datos de e-commerce de la asignatura.
 - Código reproducible y modular
 - **Estructura organizada**: notebooks en `/notebooks/`, datos en `/data/`, entregables en `/deliverables/`, figuras en `/figures/`
 - La carpeta `submissions/` contiene archivos enviados oficialmente a plataforma académica
-- ✅ Primer entregable (AC03) completado, enviado y calificado con **10/10**
+- ✅ AC03 completado, enviado y calificado con **10/10**
+- 🕐 AC06 completado y enviado el 27/04/2026 — pendiente de evaluación
 
 ---
 
