@@ -81,7 +81,7 @@ md004_ha_dv/
 #### 1. S6T3_AccomodationNights_ChristianR_20260427.ipynb
 **Sesión 6 - Tarea 3: Análisis de Noches de Alojamiento**
 
-Notebook en desarrollo. Análisis sobre el dataset de noches reservadas en alojamientos.
+Análisis sobre el dataset de noches reservadas en alojamientos.
 
 **Dataset**: `accomodation_nights_booked.csv`
 
@@ -334,12 +334,14 @@ Modelo de clasificación de correos spam vs ham usando Naive Bayes.
 
 ### Entregables
 
-#### MD004ChristianRomanMarinAC06 🕐
-**Actividad Continua 06 - ENVIADO · EN EVALUACIÓN**
+#### MD004ChristianRomanMarinAC06 ✅
+**Actividad Continua 06 - COMPLETADO Y ENVIADO**
 
 Segundo entregable de la asignatura enviado el 27 de abril de 2026. Análisis completo del ciclo de vida del cliente y predicción de churn en el sector de telecomunicaciones (India).
 
-**Estado**: 🕐 Enviado — pendiente de evaluación
+**Estado**: ✅ Calificación: **9/10**
+
+> 💬 **Feedback del profesor**: Teoría muy bien desarrollada y pasos bien razonados. Se echa de menos en las conclusiones un análisis crítico de los pobres resultados del modelo (F1-score ≈ 0.5 equivale a tirar una moneda) y cómo interpretar el modelo desde esa perspectiva.
 
 **Contenido:**
 - Análisis exploratorio exhaustivo (EDA) sobre dataset de telecom con 104.142 clientes
@@ -578,7 +580,7 @@ Clasificación de ciudades indias por nivel/tier.
 | Entregable | Estado | Fecha Envío | Evaluación |
 |------------|--------|-------------|------------|
 | AC03 - Actividad Continua 03 | ✅ Enviado | 22/03/2026 | ✅ 10/10 |
-| AC06 - Actividad Continua 06 | 🕐 Enviado | 27/04/2026 | ⏳ Pendiente |
+| AC06 - Actividad Continua 06 | ✅ Enviado | 27/04/2026 | ✅ 9/10 |
 | Evaluación Final | 🔜 Próximo | - | - |
 
 ## 📅 Historial de Actualizaciones
@@ -599,8 +601,10 @@ Clasificación de ciudades indias por nivel/tier.
 - **16/04/2026**: Dataset `audio_book_data.csv` añadido a `/data/`
 - **27/04/2026**: 🎯 AC06 - Entregable de Churn Telecom completado y enviado a plataforma académica
 - **27/04/2026**: Dataset `customer_churn_data.csv` y archivos de soporte añadidos a `/data/`
-- **27/04/2026**: S6T3 - Notebook de noches de alojamiento creado (en desarrollo)
+- **27/04/2026**: S6T3 - Análisis de Noches de Alojamiento completado
 - **27/04/2026**: README.md actualizado con AC06, nuevos notebooks y datasets
+- **28/04/2026**: 🏆 AC06 calificado con **9/10** — feedback recibido del profesor
+- **28/04/2026**: README.md actualizado con nota AC06, feedback del profesor y estado del proyecto
 
 ## 📝 Notas
 
@@ -611,7 +615,8 @@ Clasificación de ciudades indias por nivel/tier.
 - **Estructura organizada**: notebooks en `/notebooks/`, datos en `/data/`, entregables en `/deliverables/`, figuras en `/figures/`
 - La carpeta `submissions/` contiene archivos enviados oficialmente a plataforma académica
 - ✅ AC03 completado, enviado y calificado con **10/10**
-- 🕐 AC06 completado y enviado el 27/04/2026 — pendiente de evaluación
+- ✅ AC06 completado, enviado y calificado con **9/10** (28/04/2026)
+- 💬 Feedback AC06: profundizar en el análisis crítico de métricas del modelo cuando el F1-score es bajo
 
 ---
 
