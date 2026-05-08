@@ -41,7 +41,19 @@ md004_ha_dv/
 │   ├── nba_logreg.csv                             # Datos de jugadores NBA
 │   ├── Poison_and_treat.txt                       # Datos de envenenamiento y tratamiento
 │   ├── sentiment_dataset.csv                      # Reviews de apps en App Store (polaridad)
-│   └── TratamientoDatos_SerieTitanic.csv          # Dataset Titanic (preprocesado)
+│   ├── TratamientoDatos_SerieTitanic.csv          # Dataset Titanic (preprocesado)
+│   └── brazilian_ecommerce_dataset/               # Dataset Olist (9 tablas relacionadas)
+│       ├── olist_customers_dataset.csv
+│       ├── olist_geolocation_dataset.csv
+│       ├── olist_order_items_dataset.csv
+│       ├── olist_order_payments_dataset.csv
+│       ├── olist_order_reviews_dataset.csv
+│       ├── olist_orders_dataset.csv
+│       ├── olist_products_dataset.csv
+│       ├── olist_sellers_dataset.csv
+│       ├── product_category_name_translation.csv
+│       └── clean/
+│           └── geo_distances.csv                  # Distancias Haversine cliente-vendedor (AC08)
 │
 ├── notebooks/                                      # Notebooks de trabajo y tareas
 │   ├── S2T3_CancerReg_ChristianR_20260303.ipynb
@@ -62,12 +74,15 @@ md004_ha_dv/
 │   ├── MD004ChristianRomanMarinAC03.ipynb         # Actividad Continua 03
 │   ├── MD004ChristianRomanMarinAC03.html          # Actividad Continua 03 (HTML)
 │   ├── MD004ChristianRomanMarinAC06.ipynb         # Actividad Continua 06
-│   └── MD004ChristianRomanMarinAC06.html          # Actividad Continua 06 (HTML)
+│   ├── MD004ChristianRomanMarinAC06.html          # Actividad Continua 06 (HTML)
+│   ├── MD004ChristianRomanMarinAC08.ipynb         # Actividad Continua 08 (exploración)
+│   └── MD004ChristianRomanMarinAC08.pbix          # Actividad Continua 08 (modelo Power BI)
 │
 ├── figures/                                        # Gráficos y visualizaciones generadas
 │
 ├── submissions/                                    # Archivos enviados a plataforma
-│   └── MD004ChristianRomanMarinAC03.pdf           # AC03 enviado
+│   ├── MD004ChristianRomanMarinAC03.pdf           # AC03 enviado
+│   └── MD004ChristianRomanMarinAC08.pdf           # AC08 enviado
 │
 ├── requirements.txt                                # Dependencias del proyecto
 └── README.md                                       # Este archivo
@@ -391,6 +406,33 @@ Primer entregable de la asignatura completado y enviado a plataforma académica.
 
 ---
 
+#### MD004ChristianRomanMarinAC08 🔜
+**Actividad Continua 08 - Brazilian Ecommerce: Power BI + Data Storytelling**
+
+Tercer entregable de la asignatura. Construcción de un modelo dimensional en Power BI utilizando el dataset de Olist (Brazilian Ecommerce), con un modelo DAR de 3 páginas y una narrativa de data storytelling.
+
+**Contenido del notebook de exploración:**
+- Auditoría de datos: tipos, cardinalidad y rango temporal de las 9 tablas del dataset
+- EDA sobre productos: volumen, peso y densidad; detección de outliers
+- Test de hipótesis para el storytelling:
+  - **H₀**: La distancia entre cliente y vendedor no impacta el incumplimiento del SLA de entrega
+  - **H₁**: La distancia sí tiene impacto en el incumplimiento del SLA
+  - Cálculo de distancias de Haversine entre cliente y vendedor
+  - Variable binaria `SLA_failed` (fecha estimada vs. real)
+  - Validación estadística con Chi-cuadrado y Cramer's V (V=0.067): efecto real y sistemático pero no dominante
+- Data Cleaning: generación de tabla `geo_distances.csv` con distancias y bins para importación directa a Power BI
+
+**Formatos disponibles:**
+- 📓 Notebook Jupyter: `deliverables/MD004ChristianRomanMarinAC08.ipynb`
+- 📊 Modelo Power BI: `deliverables/MD004ChristianRomanMarinAC08.pbix`
+- 📄 PDF enviado: `submissions/MD004ChristianRomanMarinAC08.pdf`
+
+**Dataset**: Brazilian Ecommerce (Olist) — 9 tablas relacionadas (`data/brazilian_ecommerce_dataset/`)
+
+**Fecha de envío**: 8 de mayo de 2026
+
+---
+
 ## 🚀 Instalación y Uso
 
 ### Prerrequisitos
@@ -569,6 +611,25 @@ Clasificación de ciudades indias por nivel/tier.
 **Uso:**
 - Dato de apoyo para análisis geográfico en contexto indio
 
+### 17. brazilian_ecommerce_dataset/
+Dataset de e-commerce brasileño de Olist con 9 tablas relacionadas.
+
+**Tablas:**
+- `olist_customers_dataset.csv`: Clientes
+- `olist_geolocation_dataset.csv`: Geolocalizaciones por código postal
+- `olist_order_items_dataset.csv`: Ítems por pedido
+- `olist_order_payments_dataset.csv`: Pagos por pedido
+- `olist_order_reviews_dataset.csv`: Reseñas de pedidos
+- `olist_orders_dataset.csv`: Pedidos
+- `olist_products_dataset.csv`: Productos
+- `olist_sellers_dataset.csv`: Vendedores
+- `product_category_name_translation.csv`: Traducción de categorías (PT → EN)
+- `clean/geo_distances.csv`: Distancias Haversine cliente-vendedor (generada en AC08)
+
+**Uso:**
+- Modelo dimensional en Power BI (AC08)
+- Data storytelling sobre SLA de entrega y distancia geográfica
+
 ## 👤 Autor
 
 **Christian R**
@@ -581,6 +642,7 @@ Clasificación de ciudades indias por nivel/tier.
 |------------|--------|-------------|------------|
 | AC03 - Actividad Continua 03 | ✅ Enviado | 22/03/2026 | ✅ 10/10 |
 | AC06 - Actividad Continua 06 | ✅ Enviado | 27/04/2026 | ✅ 9/10 |
+| AC08 - Actividad Continua 08 | ✅ Enviado | 08/05/2026 | ⏳ Pendiente |
 | Evaluación Final | 🔜 Próximo | - | - |
 
 ## 📅 Historial de Actualizaciones
@@ -605,6 +667,10 @@ Clasificación de ciudades indias por nivel/tier.
 - **27/04/2026**: README.md actualizado con AC06, nuevos notebooks y datasets
 - **28/04/2026**: 🏆 AC06 calificado con **9/10** — feedback recibido del profesor
 - **28/04/2026**: README.md actualizado con nota AC06, feedback del profesor y estado del proyecto
+- **08/05/2026**: AC08 - Modelo dimensional Power BI (Brazilian Ecommerce) completado y enviado
+- **08/05/2026**: Notebook de exploración y preparación de datos AC08 completado (EDA, hipótesis, geo_distances)
+- **08/05/2026**: Dataset `brazilian_ecommerce_dataset/` documentado y tabla `geo_distances.csv` generada
+- **08/05/2026**: README.md actualizado con AC08, Power BI y dataset Brazilian Ecommerce
 
 ## 📝 Notas
 
@@ -617,6 +683,7 @@ Clasificación de ciudades indias por nivel/tier.
 - ✅ AC03 completado, enviado y calificado con **10/10**
 - ✅ AC06 completado, enviado y calificado con **9/10** (28/04/2026)
 - 💬 Feedback AC06: profundizar en el análisis crítico de métricas del modelo cuando el F1-score es bajo
+- ✅ AC08 completado y enviado (08/05/2026) — calificación pendiente
 
 ---
 
