@@ -406,7 +406,7 @@ Primer entregable de la asignatura completado y enviado a plataforma académica.
 
 ---
 
-#### MD004ChristianRomanMarinAC08 🔜
+#### MD004ChristianRomanMarinAC08 ✅
 **Actividad Continua 08 - Brazilian Ecommerce: Power BI + Data Storytelling**
 
 Tercer entregable de la asignatura. Construcción de un modelo dimensional en Power BI utilizando el dataset de Olist (Brazilian Ecommerce), con un modelo DAR de 3 páginas y una narrativa de data storytelling.
@@ -430,6 +430,8 @@ Tercer entregable de la asignatura. Construcción de un modelo dimensional en Po
 **Dataset**: Brazilian Ecommerce (Olist) — 9 tablas relacionadas (`data/brazilian_ecommerce_dataset/`)
 
 **Fecha de envío**: 8 de mayo de 2026
+
+**Estado**: ✅ Calificación: **10/10**
 
 ---
 
@@ -642,8 +644,10 @@ Dataset de e-commerce brasileño de Olist con 9 tablas relacionadas.
 |------------|--------|-------------|------------|
 | AC03 - Actividad Continua 03 | ✅ Enviado | 22/03/2026 | ✅ 10/10 |
 | AC06 - Actividad Continua 06 | ✅ Enviado | 27/04/2026 | ✅ 9/10 |
-| AC08 - Actividad Continua 08 | ✅ Enviado | 08/05/2026 | ⏳ Pendiente |
-| Evaluación Final | 🔜 Próximo | - | - |
+| AC08 - Actividad Continua 08 | ✅ Enviado | 08/05/2026 | ✅ 10/10 |
+| Evaluación Final | 🔜 Próximo | - | 📊 Media actual: **9.67/10** *(AC03: 10 + AC06: 9 + AC08: 10)* |
+
+- Nota: Aún queda por realizar al entrevista final para confirmar mi nota definitva, pero con las calificaciones obtenidas hasta ahora, la media actual es de **9.67/10**.
 
 ## 📅 Historial de Actualizaciones
 
@@ -667,10 +671,12 @@ Dataset de e-commerce brasileño de Olist con 9 tablas relacionadas.
 - **27/04/2026**: README.md actualizado con AC06, nuevos notebooks y datasets
 - **28/04/2026**: 🏆 AC06 calificado con **9/10** — feedback recibido del profesor
 - **28/04/2026**: README.md actualizado con nota AC06, feedback del profesor y estado del proyecto
-- **08/05/2026**: AC08 - Modelo dimensional Power BI (Brazilian Ecommerce) completado y enviado
+- **08/05/2026**: 🎯 AC08 - Modelo dimensional Power BI (Brazilian Ecommerce) completado y enviado
 - **08/05/2026**: Notebook de exploración y preparación de datos AC08 completado (EDA, hipótesis, geo_distances)
 - **08/05/2026**: Dataset `brazilian_ecommerce_dataset/` documentado y tabla `geo_distances.csv` generada
 - **08/05/2026**: README.md actualizado con AC08, Power BI y dataset Brazilian Ecommerce
+- **12/05/2026**: 🏆 AC08 calificado con **10/10**
+- **12/05/2026**: README.md actualizado con nota AC08
 
 ## 📝 Notas
 
@@ -683,7 +689,7 @@ Dataset de e-commerce brasileño de Olist con 9 tablas relacionadas.
 - ✅ AC03 completado, enviado y calificado con **10/10**
 - ✅ AC06 completado, enviado y calificado con **9/10** (28/04/2026)
 - 💬 Feedback AC06: profundizar en el análisis crítico de métricas del modelo cuando el F1-score es bajo
-- ✅ AC08 completado y enviado (08/05/2026) — calificación pendiente
+- ✅ AC08 completado, enviado y calificado con **10/10** (12/05/2026)
 
 ---
 
